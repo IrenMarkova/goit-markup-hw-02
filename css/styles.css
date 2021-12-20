@@ -52,7 +52,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: currentColor;
 }
 .contact:hover,
 .contact:focus {
@@ -73,6 +73,7 @@ body {
   color: var(--third-text-color);
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -164,7 +165,8 @@ body {
 }
 
 /* -----------------PORTFOLIO PROJECT-------------- */
-.filter-btn {
+.project-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
@@ -175,18 +177,18 @@ body {
   cursor: pointer;
 }
 
-.filter-all {
+.project-btn-all {
   background-color: var(--accent-color);
   color: var(--third-text-color);
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.project-btn:hover,
+.project-btn:focus {
   background-color: var(--accent-color);
   color: var(--third-text-color);
 }
 
-.team-title {
+.project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
